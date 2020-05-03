@@ -1,0 +1,72 @@
+
+## OS generated files
+*._*
+.DS_Store*
+.Spotlight*
+.Trash*
+*ehthumbs.db
+*Thumbs.db
+*.fuse_hidden*
+
+## Temporary files/folders
+*.swp
+*~
+tmp*
+temp*
+
+## Compiled files
+*.o
+*.o-*
+*.obj
+*.a
+*.class
+*.jar
+*.pyc
+*.mexmac*
+*.mexa*
+
+## Other
+node_modules
+.vscode
+
+## Python files
+__pycache__
+.ipynb*
+.Python
+build
+dist
+sdist
+*.egg
+*.egg-info
+
+## Data files
+*.mat
+*.csv
+*.nii
+*.nii.gz
+
+*.gif
+*.png
+*.jpg
+*.jpeg
+*.tiff
+
+*.wav
+*.mp3
+*.avi
+*.mp4
+*.mov
+*.flv
+*.mkv
+
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.pdf
+
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.tar.bz2
