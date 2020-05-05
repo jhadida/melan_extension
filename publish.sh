@@ -12,13 +12,13 @@ The version should follow the semver format (https://semver.org/).
 
 Checklist before you publish:
 
-1. package.json accurate?
-2. Did you include a LICENSE.txt (see 'jhtpl license')?
-3. setup.py up-to-date (classifiers, JSON fields renaming, 'packages' field, etc.)?
-4. Did you commit all changes in this repository?
-5. Did you update the release notes in README.md?
-6. If there were notable changes, have you updated CHANGELOG.md?
-7. Are you in the master branch?
+    1. package.json accurate?
+    2. Did you include a LICENSE.txt (and set a copyright name)?
+    3. setup.py up-to-date (classifiers, JSON fields renaming, 'packages' field, etc.)?
+    4. Did you commit all changes in this repository?
+    5. Did you update the release notes in README.md?
+    6. If there were notable changes, have you updated CHANGELOG.md?
+    7. Are you in the master branch?
 
 If no encrypted token is available (see token.sh utility), the publishing
 tool will prompt for a username/password for the account on PyPI. This is

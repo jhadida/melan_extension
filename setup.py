@@ -24,7 +24,8 @@ with open("version.txt") as fh:
 
 # check data fields
 required = {'name','author','author_email','description','homepage'}
-assert required <= data.keys(), ValueError('Missing required field(s).')
+for r in required:
+    assert data[r], ValueError(f'Required field is not set: {r}')
 
 # remap field names if needed
 data['url'] = data.pop('homepage')
@@ -37,8 +38,12 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
+    install_requires=['melan'],
     classifiers=[
         "Development Status :: 3 - Alpha",
+        "License :: OSI Approved :: MIT License",
+        "Topic :: Text Processing",
+        "Intended Audience :: End Users/Desktop",
         "Programming Language :: Python :: 3"
     ],
     python_requires='>=3.6',

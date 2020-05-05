@@ -28,6 +28,7 @@ temp*
 ## Other
 node_modules
 .vscode
+_.md
 
 ## Python files
 __pycache__
