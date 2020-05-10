@@ -32,7 +32,7 @@ cd "The folder where your repo will live"
 ExtensionName="Your extension's name"
 ExtensionRepo="Your extension's URL"
 ```
-Obviously, you should replace the quoted contents as needed (note: there should be _no spaces_ around the `=` signs!).
+Obviously, you should replace the quoted contents as needed (**note:** there should be _no spaces_ around the `=` signs!).
 
 Finally, you'll need to copy the contents of this template extension to the folder `$ExtensionName` on your machine; link that folder to your own repo; and sync them together. To do just that, type the following:
 ```
@@ -51,7 +51,7 @@ If you refresh the page of your repo on Github, you should now see the same file
 
 Now that you have a copy of this template extension on your machine, and that your folder is setup to sync with Github, let's get down to business!
 
-1. Edit the file `package.json`, and provide a value for each field. The `name` should correspond to the name of your repo (no spaces); and if you don't want to provide an e-mail address, you may set it to `<YourName>@unknown.invalid` (see [TLDs](https://en.wikipedia.org/wiki/.invalid)).
+1. Edit the file `package.json`, and provide a value for each field. The `name` should correspond to the name of your repo (no spaces); and if you don't want to provide an e-mail address, you may set it to `<YourName>@unknown.invalid` (cf. [TLD](https://en.wikipedia.org/wiki/.invalid)).
 
 2. Edit the file `LICENSE.txt` and replace `<YourNameHere>` with.. your name :)
 
@@ -108,7 +108,7 @@ Writing proper tests can also be very time-consuming. A good way to start withou
 
 Congratulations, you have now coded and tested your very own Melan extension! Take a moment to celebrate your awesomeness :100: :tada:
 
-Before you share your hard work with the world, make sure your house is clean :house_with_garden:. And by your house, I mean your repo, of course:
+Before you share your hard work with the world, tidy up your house! And by your house, I mean your repo, of course:
 
 - Make sure `README.md` is up-to-date (in particular, update the release notes).
 - Make sure `CHANGELOG.md` is up-to-date.
